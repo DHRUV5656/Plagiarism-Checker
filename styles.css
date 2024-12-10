@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #f2c3e0, #d1d9e6);
+}
+
+.container {
+    background:#cdedf0; /* Light off-white background for subtle elegance */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 400px;
+    text-align: center;
+    border: 1px solid #ADD8E6; /* Light gray border for subtle definition */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+textarea {
+    width: calc(100% - 30px); /* Adjusted for better alignment */
+    height: 120px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #007bff;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    resize: vertical;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+textarea:focus {
+    border-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    outline: none;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: 500;
+    color: #444;
+    font-size: 18px;
+}
